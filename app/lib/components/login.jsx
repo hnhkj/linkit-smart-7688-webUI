@@ -1,6 +1,6 @@
 import { default as React, PropTypes } from 'react';
 import Radium from 'radium';
-import Logo from '../../img/mediatek.png';
+import Logo from '../../img/mohplayer.png';
 import mui from 'material-ui';
 import AppActions from '../actions/appActions';
 
@@ -159,7 +159,7 @@ export default class loginComponent extends React.Component {
               lineHeight: '22px',
               marginTop: '40px',
               fontFamily: 'RionaSansLight,Arial,Helvetica,sans-serif',
-            }}><span style={{fontFamily: 'RionaSansLight,Arial,Helvetica,sans-serif'}}>{__('Welcome to')}</span> <b style={{ fontFamily: 'RionaSansMedium,Arial,Helvetica,sans-serif' }}>LinkIt Smart 7688</b>.</p>
+            }}><span style={{fontFamily: 'RionaSansLight,Arial,Helvetica,sans-serif'}}>{__('Welcome to')}</span> <b style={{ fontFamily: 'RionaSansMedium,Arial,Helvetica,sans-serif' }}>MOH Player</b>.</p>
             <h3 style={ styles.panelTitle }>{__('Account')}</h3>
             <p style={ styles.panelContent }>root(default)</p>
             <TextField
